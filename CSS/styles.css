@@ -1,0 +1,33 @@
+nav {
+	background: #E43E3D;
+	box-shadow: 10px 10px 5px rgba(0,0,0,/0.5);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 2rem;
+
+}
+
+ nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 1.5rem;
+	text-decoration: none;
+
+ }
+
+ nav a.logo img { 
+	width: 25px;
+
+ }
+
+ .btn{
+
+ 	padding:1rem 2rem;
+ 	background: #F3DDD7 ;
+ 	border-radius: 10px;
+ 	text-decoration: none;
+ 	color: #7B5554;
+ }
