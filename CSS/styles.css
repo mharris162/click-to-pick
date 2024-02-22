@@ -6,6 +6,8 @@ nav {
 	align-items: center;
 	padding: 1rem 2rem;
 
+	font: ;
+
 }
 
  nav ul{
@@ -19,7 +21,7 @@ nav {
  }
 
  nav a.logo img { 
-	width: 25px;
+	width: 250px;
 
  }
 
