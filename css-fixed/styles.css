@@ -26,7 +26,7 @@ nav {
   font-family: "Kanit",sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 32px;
+  font-size: 20px;
   color: #7B5554;
 
 }
@@ -58,7 +58,7 @@ nav {
 
 
  nav a.logo img { 
-	width: 300px;
+	width: 250px;
 
  }
 
@@ -74,7 +74,7 @@ nav {
   font-family: "Archivo Black", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 24px;
+  font-size: 16px;
   
 }
 
