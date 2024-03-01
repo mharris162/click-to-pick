@@ -6,6 +6,7 @@ body{
   font-family: "Kanit",sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color: #E43E3D;
 
 }
 
@@ -66,6 +67,9 @@ nav {
  header{ 
  	background-color: #7B5554;
  	background-image: url("../photos/headerbackground.jpg");
+ 	background-size: conatin;
+ 	 width: 1440 px;
+  	height: 844 px;
  	padding: 12 rem 2rem; 
  	text-align: center;
  	border:none;
@@ -86,17 +90,15 @@ header h1{
 	  font-style: normal;
 	  font-size:96px;
 	  color: #F3DDD7;
+	  margin-top: 0px;
+	  margin-bottom: 10px;
 }
 
-header .p{
+header p{
 
-	font-family: "Kanit",sans-serif;
-  	font-weight: 400;
-  	font-style: normal;
-  	text-size: 48 px;
+	text-size: 20 px;
     color: #F3DDD7;
     
-
 }
 
 
@@ -113,6 +115,52 @@ header .p{
   font-style: normal;
   font-size: 28px;
  }
+
+
+section {
+
+	background-color: #E43E3D;
+
+}
+
+.alert{
+  background-color: #F3DDD7;
+  padding: 0 px;
+  margin: 0 px:
+}
+
+
+section h2{ 
+	font-family: "Archivo Black", sans-serif;
+	  font-weight: 400;
+	  font-style: normal;
+	  font-size:64 px;
+	  color: #7B5554;
+
+ }
+
+ section h3{ 
+font-family: "Archivo Black", sans-serif;
+	  font-weight: 400;
+	  font-style: normal;
+	  font-size:48 px;
+	  color: #F3DDD7;
+
+  }
+
+ #missionstatement{ 
+
+
+	.kanit-regular;
+  font-family: "Kanit",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #F3DDD7;
+  font-size: 40 px;
+
+
+  }
+
 
 
 footer{
