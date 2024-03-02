@@ -85,17 +85,17 @@ nav {
  	height: 450px;
  	background-color: #7B5554;
  	background-image: url("../photos/background.svg");
- 	background-image: center;
- 	text-align: center;
+  	text-align: center;
  	border:none;
  	font-family: "Kanit",sans-serif;
   	font-weight: 400;
   	font-style: normal;
   	text-size: 48 px;
     color: #F3DDD7;
-   
 
  }
+
+
 
 
 
@@ -110,10 +110,9 @@ header h1{
 	  margin-top:0px;
 }
 
-
-@media screen and (max-width: 480px){
- 	header{
-		text-size: 50%}
+ @media screen and (max-width: 480px){
+ 	header h1{
+		font-size: 45px;}
 
  }
 
@@ -186,7 +185,6 @@ section h2{
 	margin-bottom: 50px;
 
 
-
 }
 
   #question{ 
@@ -196,6 +194,7 @@ section h2{
 	  font-size:48 px;
 	  color: #7B5554;
 	  text-align: right;
+	  padding-right: 10px;
 
    }
 
@@ -218,9 +217,10 @@ iframe {
 	  font-family: "Kanit",sans-serif;
 	  font-weight: 400;
 	  font-style: normal;
-	  color: #F3DDD7;
+	  color: #7B5554;
 	  font-size: 40 px;
-	  text-align: center;
+	  text-align: right;
+	  padding-right: 10px;
 	
    }
 
@@ -228,7 +228,7 @@ iframe {
  section h3{ 
  	margin-top: 50px;
  	margin-bottom: 50px;
-font-family: "Archivo Black", sans-serif;
+	font-family: "Archivo Black", sans-serif;
 	  font-weight: 400;
 	  font-style: normal;
 	  font-size:48 px;
@@ -352,9 +352,8 @@ footer h4{
 font-family: "Archivo Black", sans-serif;
 	  font-weight: 400;
 	  font-style: normal;
-	  font-size:48 px;
+	  font-size: 28px;
 	  color: #F3DDD7;
-
 
 }
 
@@ -364,7 +363,7 @@ font-family: "Archivo Black", sans-serif;
   font-family: "Kanit",sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: ;32px
+  font-size: 16px;
   color: #F3DDD7;
 
 }
@@ -376,20 +375,17 @@ font-family: "Archivo Black", sans-serif;
   font-family: "Kanit",sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: ;16px
+  font-size: 16px;
   color: #F3DDD7;
-
 }
 
 
-}
 
 
   input{
   		background-color: #F3DDD7 ;
 		 color: #7B5554 ;
 		 display: inline-flex;
-
 		 
   }
 
