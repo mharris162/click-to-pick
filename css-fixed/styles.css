@@ -297,7 +297,7 @@ font-family: "Archivo Black", sans-serif;
 
 footer{
 	background: #E43E3D;
-	box-shadow: 10px 10px 5px rgba(0,0,0,/0.5);
+	box-shadow: 1px 5px 13px black;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
