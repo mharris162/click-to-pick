@@ -181,7 +181,53 @@ section h2{
 
  }
 
+#education{
+	background-color:#F3DDD7 ;
+	margin-bottom: 50px;
+
+
+
+}
+
+  #question{ 
+	font-family: "Archivo Black", sans-serif;
+	  font-weight: 400;
+	  font-style: normal;
+	  font-size:48 px;
+	  color: #7B5554;
+	  text-align: right;
+
+   }
+
+
+
+
+@media screen and (max-width: 480px){
+iframe {
+    width: 100%;
+    height: auto;
+    max-width: 100%;}
+}
+
+
+
+
+  #noworries{ 
+
+	.kanit-regular;
+	  font-family: "Kanit",sans-serif;
+	  font-weight: 400;
+	  font-style: normal;
+	  color: #F3DDD7;
+	  font-size: 40 px;
+	  text-align: center;
+	
+   }
+
+
  section h3{ 
+ 	margin-top: 50px;
+ 	margin-bottom: 50px;
 font-family: "Archivo Black", sans-serif;
 	  font-weight: 400;
 	  font-style: normal;
@@ -206,51 +252,7 @@ img{
 
 
 
- section p{ 
-	font-family: "Kanit",sans-serif;
-  	font-weight: 400;
-  	font-style: normal;
-  	text-size: 48 px;
-    color: #F3DDD7:;
-
-  }
-
-
-
-  #education{ 
-  	background-color:#F3DDD7;
-   }
-
-
-  #question{ 
-	font-family: "Archivo Black", sans-serif;
-	  font-weight: 400;
-	  font-style: normal;
-	  font-size:48 px;
-	  color: #7B5554;
-
-   }
-
-@media screen and (max-width: 480px){
-iframe {
-    width: 100%;
-    height: auto;
-    max-width: 100%;}
-}
-
-
   
-
-  #noworries{ 
-	.kanit-regular;
-	  font-family: "Kanit",sans-serif;
-	  font-weight: 400;
-	  font-style: normal;
-	  color: #7B5554;
-	  font-size: 40 px;
-	text-align: left;
-   }
-
 
   section, #filters{
 	font-family: "Archivo Black", sans-serif;
@@ -356,7 +358,8 @@ font-family: "Archivo Black", sans-serif;
 
 }
 
-footer p{
+#formtitle{
+
 .kanit-regular;
   font-family: "Kanit",sans-serif;
   font-weight: 400;
@@ -367,22 +370,34 @@ footer p{
 }
 
 
+#formsubtitle{
+	
+.kanit-regular;
+  font-family: "Kanit",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: ;16px
+  color: #F3DDD7;
+
+}
+
+
+}
+
 
   input{
-  		color: #7B5554 ;
-  		.kanit-regular;
-		  font-family: "Kanit",sans-serif;
-		  font-weight: 400;
-		  font-style: bold;
-		  font-size: ;32px
-		  width: 50 px;
-		  height: 20px;
+  		background-color: #F3DDD7 ;
+		 color: #7B5554 ;
+		 display: inline-flex;
+
 		 
   }
+
 
   #message{ 
   	width: 193px;
   	height: 75px;
+  	
 
 
    }
