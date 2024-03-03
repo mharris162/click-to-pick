@@ -167,6 +167,13 @@ section {
 
 }
 
+@media screen and (max-width: 480px){
+ 	.center{
+		width: 175px;
+	margin: auto;}
+
+	}
+
 
 section h2{ 
 	font-family: "Archivo Black", sans-serif;
@@ -180,9 +187,18 @@ section h2{
 
  }
 
+@media screen and (max-width: 480px){
+ 	section h2{
+		font-size: 20px;}
+}
+
+
+
 #education{
+	margin-top: 50px;
+	width: 66%; 
+    height: 300px; 
 	background-color:#F3DDD7 ;
-	margin-bottom: 50px;
 
 
 }
@@ -210,7 +226,6 @@ iframe {
 
 
 
-
   #noworries{ 
 
 	.kanit-regular;
@@ -225,14 +240,20 @@ iframe {
    }
 
 
- section h3{ 
- 	margin-top: 50px;
- 	margin-bottom: 50px;
+
+
+ section h5{ 
+ 	margin-top: 20px;
+ 	margin-bottom: 60px;
+ 	background-color: #7B5554;
+ 	height: 450px;
+ 	background-position:right center ;
 	font-family: "Archivo Black", sans-serif;
 	  font-weight: 400;
 	  font-style: normal;
-	  font-size:48 px;
+	  font-size: 36px;
 	  color: #F3DDD7;
+	  text-align: left;
   }
 
 
@@ -244,23 +265,29 @@ iframe {
 }
 
 
-	
+@media screen and (max-width: 480px){
+	 h5 {
+    font-size: 16px;}
+}
+
+
+
 img{ 
-	margin-top: 75px;
+	margin-top: 0px;
 	width:300px;}
 
 
 
 
-  
+
 
   section, #filters{
+  	margin-bottom: 60px;
 	font-family: "Archivo Black", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size:34x;
 	 color: #F3DDD7;
-
    }
 
 table{ 
@@ -358,25 +385,27 @@ font-family: "Archivo Black", sans-serif;
 }
 
 #formtitle{
-
+margin-bottom: 0px;
 .kanit-regular;
-  font-family: "Kanit",sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Archivo Black", sans-serif;
+	font-weight: 400;
+	  font-style: normal;
   font-size: 16px;
   color: #F3DDD7;
+  text-align: right;
 
 }
 
 
 #formsubtitle{
-	
+margin-top: 0px;
 .kanit-regular;
   font-family: "Kanit",sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
   color: #F3DDD7;
+ text-align: right;
 }
 
 
@@ -386,13 +415,17 @@ font-family: "Archivo Black", sans-serif;
   		background-color: #F3DDD7 ;
 		 color: #7B5554 ;
 		 display: inline-flex;
+		 border-radius: 5px;
+		 border-color: #7B5554;
 		 
   }
 
 
   #message{ 
-  	width: 193px;
+  	width: 396px;
   	height: 75px;
+  	text-align: justify-all;
+  	text-algin: left;
   	
 
 
