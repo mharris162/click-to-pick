@@ -81,7 +81,7 @@ nav {
 
 
 
- header{
+ .homeheader{
  	height: 450px;
  	background-color: #7B5554;
  	background-image: url("../photos/background.svg");
