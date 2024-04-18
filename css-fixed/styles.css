@@ -363,6 +363,15 @@ margin-top: 0px;
 
 }
 
+ section, #filters{
+  	margin-bottom: 60px;
+	font-family: "Archivo Black", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size:34x;
+	 color: #F3DDD7;
+   }
+
 table{ 
 width: 100%;
 text-align: center;
@@ -402,15 +411,12 @@ font-family: "Archivo Black", sans-serif;
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
+	margin-left: 1rem;
  
 
 
 }
 
-
-#education iframe{
-	justify-content: left;
-}
 
   #question{ 
 	font-family: "Archivo Black", sans-serif;
@@ -418,6 +424,7 @@ font-family: "Archivo Black", sans-serif;
 	  font-style: normal;
 	  font-size:48 px;
 	  color: #F3DDD7;
+	  margin-left: 1rem;
 	 
 
    }
@@ -477,12 +484,5 @@ img{
 
 
 
-  section, #filters{
-  	margin-bottom: 60px;
-	font-family: "Archivo Black", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size:34x;
-	 color: #F3DDD7;
-   }
+ 
 
