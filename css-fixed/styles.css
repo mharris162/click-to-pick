@@ -9,7 +9,7 @@ body{
   font-family: "Kanit",sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: #E43E3D;
+  background-color: #7B5554;
 
 }
 
@@ -19,9 +19,10 @@ nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	align-items: center;
 	padding: 1rem 2rem;
+	align-items: center;
 	text-align: right;
+	
 	
 
 	.kanit-regular;
@@ -29,7 +30,7 @@ nav {
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
-  color: #F3DDD7;
+  color: #7B5554;
 
 }
 
@@ -87,7 +88,6 @@ nav {
 
  #homeheader{
  	height: 450px;
- 	background-color: #7B5554;
  	background-image: url("../photos/background.svg");
   	text-align: center;
  	border:none;
@@ -96,10 +96,6 @@ nav {
   	font-style: normal;
   	text-size: 48 px;
     color: #F3DDD7;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
 
  }
 
@@ -135,36 +131,30 @@ header p{
 
 
 
-
-
  .btn2{
-
- 	padding:1rem 2rem;
+ 	flex-shrink: 20px;
+	padding:16px;
  	background: #E43E3D ;
  	border-radius: 10px;
  	text-decoration: none;
-  color: #F3DDD7 ;
-  font-family: "Archivo Black", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 28px;
+ 	text-align: center;
+	  color: #F3DDD7 ;
+	  font-family: "Archivo Black", sans-serif;
+	  font-weight: 400;
+	  font-style: normal;
+	  font-size: 28px;
  }
 
 
-section {
-
-	background-color: #E43E3D;
-
-}
 
 .center{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
 	background-color: #F3DDD7;
-	width: 350px;
-	margin: auto;
-	 width: 50%;
 	  border: 3px;
 	  border-color: #7B5554;
-	  padding: 10px;
+	  padding: 20px;
 	  font-family: "Archivo Black", sans-serif;
 	  font-weight: 400;
 	  font-style: normal;
@@ -174,6 +164,22 @@ section {
 
 
 }
+
+.btn3{
+
+ 	padding:16px;
+ 	background: #E43E3D ;
+ 	border-radius: 10px;
+ 	text-decoration: none;
+ 	text-align: center;
+  color: #7B5554 ;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  
+}
+
 
 @media screen and (max-width: 480px){
  	.center{
@@ -203,12 +209,17 @@ section h2{
 
 
 #education{
-	margin-top: 50px;
-	width: 66%; 
-    height: 300px; 
-	background-color:#F3DDD7 ;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+ 
 
 
+}
+
+
+#education iframe{
+	justify-content: left;
 }
 
   #question{ 
@@ -216,9 +227,8 @@ section h2{
 	  font-weight: 400;
 	  font-style: normal;
 	  font-size:48 px;
-	  color: #7B5554;
-	  text-align: right;
-	  padding-right: 10px;
+	  color: #F3DDD7;
+	 
 
    }
 
@@ -229,7 +239,9 @@ section h2{
 iframe {
     width: 100%;
     height: auto;
-    max-width: 100%;}
+    max-width: 100%;
+    justify-content: right;
+}
 }
 
 
@@ -240,10 +252,8 @@ iframe {
 	  font-family: "Kanit",sans-serif;
 	  font-weight: 400;
 	  font-style: normal;
-	  color: #7B5554;
+	  color: #F3DDD7;
 	  font-size: 40 px;
-	  text-align: right;
-	  padding-right: 10px;
 	
    }
 
@@ -251,7 +261,6 @@ iframe {
 
 
  section h5{ 
- 	margin-top: 20px;
  	margin-bottom: 60px;
  	background-color: #7B5554;
  	height: 450px;
@@ -338,7 +347,6 @@ footer{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1rem 2rem;
 	text-align: right;
 
 	.kanit-regular;
@@ -352,6 +360,10 @@ footer{
 }
 
  footer ul{
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-around;
+ 	flex-grow: 2;
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -376,6 +388,8 @@ footer{
 
 
  footer ul li a{
+ 	display: flex;
+ 	flex-direction: column;
 	text-decoration: none;
 	color:#7B5554;
 	text-size: 50px;
@@ -383,13 +397,19 @@ footer{
 }
 
 
-footer h4{
+footer h6{
 font-family: "Archivo Black", sans-serif;
 	  font-weight: 400;
 	  font-style: normal;
 	  font-size: 28px;
 	  color: #F3DDD7;
 
+}
+
+#formheaders{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
 }
 
 #formtitle{
@@ -400,7 +420,7 @@ margin-bottom: 0px;
 	  font-style: normal;
   font-size: 16px;
   color: #F3DDD7;
-  text-align: right;
+ 
 
 }
 
@@ -413,8 +433,9 @@ margin-top: 0px;
   font-style: normal;
   font-size: 16px;
   color: #F3DDD7;
- text-align: right;
 }
+
+
 
 
 
