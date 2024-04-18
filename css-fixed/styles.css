@@ -9,7 +9,8 @@ body{
   font-family: "Kanit",sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: #7B5554;
+  background-color: #7B5554
+  
 
 }
 
@@ -172,7 +173,7 @@ header p{
  	border-radius: 10px;
  	text-decoration: none;
  	text-align: center;
-  color: #7B5554 ;
+  color: #F3DDD7 ;
   font-family: "Archivo Black", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -222,7 +223,7 @@ footer{
   font-family: "Kanit",sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: ;32px
+  font-size:20px;
   color: #7B5554;
 
 
@@ -343,10 +344,16 @@ margin-top: 0px;
 
 
 #aboutheader{
-	margin-left: 1rem;
-	background-color: #7B5554;
+	display: flex;
+	justify-content: center;
+	background-color: #F3DDD7;
+	margin-bottom: 5rem;
 
 
+}
+
+#aboutheader h1{
+	color: #7B5554
 }
 
 
@@ -359,12 +366,17 @@ margin-top: 0px;
   font-family: "Kanit",sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 18px;
+  color: #F3DDD7;
 
 }
 
- section, #filters{
-  	margin-bottom: 60px;
+#info h3{
+	color: #F3DDD7;
+	font-size: 24px;
+}
+
+ section #filters{
 	font-family: "Archivo Black", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -446,18 +458,32 @@ iframe {
 
 
 
- section h5{ 
- 	margin-bottom: 60px;
+ .missionstatement{ 
  	background-color: #7B5554;
  	height: 450px;
  	background-position:right center ;
-	font-family: "Archivo Black", sans-serif;
+  }
+
+ .missionstatement h5{
+ 	font-family: "Archivo Black", sans-serif;
 	  font-weight: 400;
 	  font-style: normal;
-	  font-size: 36px;
+	  font-size: 24px;
 	  color: #F3DDD7;
 	  text-align: left;
-  }
+ }
+
+.missionstatement p{
+	.kanit-regular;
+	  font-family: "Kanit",sans-serif;
+	  font-weight: 400;
+	  font-style: normal;
+	  color: #F3DDD7;
+	  font-size: 18px;
+
+}
+
+
 
 
 @media screen and (max-width: 480px){
@@ -477,9 +503,50 @@ iframe {
 
 img{ 
 	margin-top: 0px;
-	width:300px;}
+	width:300px;
+}
 
+
+ #feedback h2{
+	color: #F3DDD7;
+	margin-bottom: 5rem;
+}
 
 
  
+ #form2{
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+	margin-bottom: 5 rem;
+	flex-basis: 0;
+}
+
+#message2{
+	display: flex;
+	flex-grow:2;
+	flex-basis: 0;
+}
+
+
+ #form input{
+  		background-color: #F3DDD7 ;
+		 color: #7B5554 ;
+		 display: inline-flex;
+		 border-radius: 5px;
+		 border-color: #7B5554;
+ }
+		 
+  
+
+  #message{ 
+  	width: 396px;
+  	height: 75px;
+  	text-align: justify-all;
+  	text-algin: left;
+  	
+
+
+   }
 
