@@ -550,3 +550,41 @@ img{
 
    }
 
+.nopage{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	margin-bottom: 5rem;
+}
+
+.nopage h2{
+	color: #F3DDD7 ;
+	margin-bottom: 5rem;
+
+}
+
+.nopage img{
+	margin-left: 14rem;
+
+}
+
+
+
+.btn4{
+	justify-items: center;
+	align-items: center;
+	justify-content: center;
+	background: #F3DDD7 ;
+	padding: 2rem;
+ 	border-radius: 8px;
+ 	text-decoration: none;
+ 	text-align: center;
+  color: #7B5554 ;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  margin-left: 16rem;
+}
