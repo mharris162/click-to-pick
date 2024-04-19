@@ -550,32 +550,46 @@ img{
 
    }
 
-.nopage{
+.nopagehead{
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	align-content: center;
 	justify-content: center;
 	margin-bottom: 5rem;
+	background:#F3DDD7;
 }
 
-.nopage h2{
+.nopagehead h1{
+	color: #7B5554;
+}
+
+
+.nopagepara{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#errorpic{
+	margin-left: 32rem;
+	justify-content: center;
+}
+
+
+
+.nopagepara h2{
 	color: #F3DDD7 ;
 	margin-bottom: 5rem;
 
 }
 
-.nopage img{
-	margin-left: 14rem;
 
+.redirect{
+	margin-bottom: 5rem;
 }
 
 
 
 .btn4{
-	justify-items: center;
-	align-items: center;
-	justify-content: center;
+	margin-left: 35rem;
 	background: #F3DDD7 ;
 	padding: 2rem;
  	border-radius: 8px;
@@ -586,5 +600,4 @@ img{
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  margin-left: 16rem;
 }
